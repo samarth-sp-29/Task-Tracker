@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Task Track</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Task Track</h1>
+
+    <!-- Task Input -->
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Enter a new task...">
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+
+    <div class="board">
+      <!-- To Do List -->
+      <div class="list" id="list1">
+        <h2>To Do</h2>
+        <div class="card" draggable="true" id="card1">Doing DSA</div>
+        <div class="card" draggable="true" id="card2">Doing Web Dev</div>
+      </div>
+
+      <!-- In Progress -->
+      <div class="list" id="list2">
+        <h2>In Progress</h2>
+        <div class="card" draggable="true" id="card3">GYM</div>
+      </div>
+
+      <!-- Done -->
+      <div class="list" id="list3">
+        <h2>Done</h2>
+      </div>
+    </div>
+  </div>
+   
+  <script src="script.js"></script>
+</body>
+</html>
